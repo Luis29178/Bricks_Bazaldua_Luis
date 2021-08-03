@@ -59,6 +59,7 @@ bool Game::Update()
 	return true;
 }
 
+//  All rendering should be done between the locks in this function
 void Game::Render()
 {
 	Console::Lock(true);
